@@ -1,6 +1,7 @@
 Update Version 2.0.0
 ##Add Order (request example)
 POST /add-order
+```
 {
     "totalPrice": 5000,
     "orderList": [
@@ -48,15 +49,19 @@ POST /add-order
         }
     ]
 }
+```
+
 ##delete Product
 DELETE /delete-product/{productId}
-(edited)
+
 ##update Product
 PUT /edit-product/{productId}
+```
 {
     name: 'google',
     price: 65000
 }
+```
 ถ้าใส่แค่ name ก็จะ update แค่ name
 ถ้าใส่แค่ price ก็จะ update แค่ price
 ถ้าใส่ทั้งคู่ก็จะอัพเดททั้งคู่
