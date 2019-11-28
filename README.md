@@ -1,5 +1,6 @@
-Update Version 2.0.0
-##Add Order (request example)
+# Update Version 2.0.0
+
+## Add Order (request example)
 POST /add-order
 ```
 {
@@ -51,10 +52,10 @@ POST /add-order
 }
 ```
 
-##delete Product
+## Delete Product
 DELETE /delete-product/{productId}
 
-##update Product
+## Update Product
 PUT /edit-product/{productId}
 ```
 {
